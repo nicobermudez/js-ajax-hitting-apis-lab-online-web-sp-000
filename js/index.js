@@ -8,4 +8,5 @@ function getRepositories() {
   xhr.addEventListener('load', showRepositories);
   xhr.open('GET', 'uri');
   xhr.send();
+  return false
 }
