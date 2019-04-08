@@ -33,7 +33,7 @@ function displayRepositories() {
       document.getElementById('repositories').innerHTML = repoList
 }
 function getCommits(el) {
-  const repoName = el.
+  const repoName = el.dataset.repository
   const name = document.getElementById('username').value
   const uri = rootURL + '/users/' + name + '/commits'
   const xhr = new XMLHttpRequest()
