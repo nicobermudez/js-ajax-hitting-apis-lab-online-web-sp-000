@@ -52,5 +52,7 @@ function displayCommits() {
     ')</h3>' +
     commit.commit.message +
     '</li>'
-  )}`
+  )
+  .join('')}</ul>`;
+  document.getElementById('details').innerHTML = commitsList
 }
