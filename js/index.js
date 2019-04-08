@@ -32,3 +32,6 @@ function displayRepositories() {
       '</ul>';
       document.getElementById('repositories').innerHTML = repoList
 }
+function getCommits() {
+  
+}
