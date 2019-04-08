@@ -12,7 +12,7 @@ function getRepositories() {
   return false
 }
 
-function showRepositories() {
+function displayRepositories() {
   const repos = JSON.parse(this.responseText)
   const repoList =
     '<ul>' +
