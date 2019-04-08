@@ -30,4 +30,5 @@ function showRepositories() {
         })
         .join('') +
       '</ul>';
+      document.getElementById('repositories').innerHTML = repoList
 }
