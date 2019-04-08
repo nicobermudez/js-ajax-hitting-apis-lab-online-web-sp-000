@@ -39,5 +39,4 @@ function getCommits(el) {
   xhr.addEventListener('load', displayCommits);
   xhr.open('GET', 'uri');
   xhr.send();
-  return false
 }
