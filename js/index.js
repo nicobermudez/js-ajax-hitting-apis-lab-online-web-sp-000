@@ -11,3 +11,7 @@ function getRepositories() {
   xhr.send();
   return false
 }
+
+function showRepositories() {
+  const repos = JSON.parse(this.responseText)
+}
