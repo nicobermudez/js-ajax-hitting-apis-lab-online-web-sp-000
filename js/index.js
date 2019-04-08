@@ -50,6 +50,7 @@ function displayCommits() {
     ' (' +
     commit.author.login +
     ')</h3>' +
-    commit.commit.message
+    commit.commit.message +
+    '</li>'
   )}`
 }
