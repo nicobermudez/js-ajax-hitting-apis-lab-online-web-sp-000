@@ -40,3 +40,7 @@ function getCommits(el) {
   xhr.open('GET', 'uri');
   xhr.send();
 }
+
+function displayCommits() {
+  
+}
